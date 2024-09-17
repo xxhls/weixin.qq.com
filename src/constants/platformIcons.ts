@@ -1,21 +1,12 @@
-import androidSvg from '@/assets/android.svg'
-import iosSvg from '@/assets/ios.svg'
-import windowsSvg from '@/assets/windows.svg'
-import macOSSvg from '@/assets/macos.svg'
-import transformSvg from '@/assets/transform.svg'
-import watchSvg from '@/assets/watch.svg'
-import carSvg from '@/assets/car.svg'
-import inputSvg from '@/assets/input.svg'
-
 const platformIcons = new Map([
-  ['Android', androidSvg],
-  ['iOS', iosSvg],
-  ['Windows', windowsSvg],
-  ['macOS', macOSSvg],
-  ['文件传输助手', transformSvg],
-  ['儿童手表版', watchSvg],
-  ['车载版', carSvg],
-  ['微信输入法', inputSvg],
+  ['Android', 'https://pic.imgdb.cn/item/66e9336df21886ccc0c3ef06.png'],
+  ['iOS', 'https://pic.imgdb.cn/item/66e93383f21886ccc0c4052a.png'],
+  ['Windows', 'https://pic.imgdb.cn/item/66e93390f21886ccc0c41061.png'],
+  ['macOS', 'https://pic.imgdb.cn/item/66e93383f21886ccc0c4052a.png'],
+  ['文件传输助手', 'https://pic.imgdb.cn/item/66e933a8f21886ccc0c42730.png'],
+  ['儿童手表版', 'https://pic.imgdb.cn/item/66e933b3f21886ccc0c43110.png'],
+  ['车载版', 'https://pic.imgdb.cn/item/66e933bdf21886ccc0c43c27.png'],
+  ['微信输入法', 'https://pic.imgdb.cn/item/66e933c8f21886ccc0c44573.png'],
 ])
 
 export default platformIcons

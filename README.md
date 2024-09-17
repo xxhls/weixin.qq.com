@@ -15,3 +15,4 @@
 - 代码格式化: Biome & Stylelint
 - CI/CD: GitHub Action
 - 在线部署: GitHub Page
+- 图床: 聚合图床
