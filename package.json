@@ -6,12 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "format": "pnpm format:style && biome format --write .",
+    "format": "npm run format:style && biome format --write .",
     "format:style": "stylelint --fix \"src/**/*.{css,scss}\"",
     "preview": "vite preview"
   },
   "dependencies": {
-    "classnames": "^2.5.1",
+    "classnames": "2.5.1",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-router-dom": "6.26.2",
