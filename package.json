@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "check": "tsc -b && npm run format",
     "format": "npm run format:style && biome format --write .",
     "format:style": "stylelint --fix \"src/**/*.{css,scss}\"",
     "preview": "vite preview"

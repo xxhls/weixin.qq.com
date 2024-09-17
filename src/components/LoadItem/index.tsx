@@ -11,11 +11,11 @@ interface LoadItemProps {
 
 const LoadItem: React.FC<LoadItemProps> = ({ name, icon, link, popupNode }) => {
   const handleClick = () => {
-    // if (link) {
-    //   window.open(link)
-    // } else if (popupNode) {
-    //   alert('Popup')
-    // }
+    if (link) {
+      window.open(link)
+    } else if (popupNode) {
+      alert('Popup')
+    }
   }
   return (
     <>
