@@ -1,0 +1,6 @@
+.wrapper {
+    @include z-index(3);
+
+    gap: $--xxhls--download-gap;
+    padding: $--xxhls--download-paddingTop 0 0;
+}

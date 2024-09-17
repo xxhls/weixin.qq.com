@@ -1,0 +1,6 @@
+.wrapper {
+    @include z-index(3);
+
+    gap: $--xxhls--others-gap;
+    padding-top: $--xxhls--others-paddingTop;
+}

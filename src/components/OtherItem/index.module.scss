@@ -1,0 +1,28 @@
+.wrapper {
+    padding-bottom: $--xxhls--others-item-paddingBottom;
+}
+
+.btnWrapper {
+    @include flex-row-xy-center;
+
+    width: $--xxhls--others-item-width;
+    height: $--xxhls--others-item-height;
+    color: $--xxhls--others-item-color;
+    background-color: $--xxhls--others-item-background-color;
+    border-radius: $--xxhls--others-item-borderRadius;
+
+    &:hover {
+        background-color: $--xxhls--others-item-background-color__hover;
+    }
+}
+
+.icon {
+    width: $--xxhls--others-item-icon-size;
+    height: $--xxhls--others-item-icon-size;
+    background-size: 100% 100%;
+}
+
+.name {
+    padding-left: $--xxhls--others-item-text-paddingLeft;
+    font-size: $--xxhls--others-item-text-fontSize;
+}

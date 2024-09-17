@@ -1,0 +1,27 @@
+.wrapper {
+    @include flex-col-x-center;
+
+    padding: $--xxhls--banner-paddingTop 0 $--xxhls--banner-paddingBottom;
+}
+
+.bgImage {
+    @include absolute-x-center;
+    @include z-index(0);
+
+    width: $--xxhls--banner-background-width;
+    background-color: $--xxhls--banner-backgroundColor;
+    border-radius: 0 0 50% 50%;
+}
+
+.logoWrapper {
+    @include z-index(1);
+
+    height: calc($--xxhls--logo-height + $--xxhls--logo-paddingBottom);
+
+    .logo {
+        @include bgi("@/assets/weixin.svg");
+
+        width: $--xxhls--logo-width;
+        height: $--xxhls--logo-height;
+    }
+}

@@ -1,0 +1,36 @@
+.wrapper {
+  @include z-index(2);
+
+  width: $--xxhls--changelog-width;
+  padding-top: $--xxhls--changelog-paddingTop;
+
+  &::before {
+    @include fake-class;
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: $--xxhls--changelog-border-height;
+    background-color: $--xxhls--changelog-border-color;
+  }
+}
+
+.logWrapper {
+  gap: $--xxhls--changelog-item-gap;
+  padding-bottom: $--xxhls--changelog-items-paddingBottom;
+}
+
+.more {
+  @include a-no-style;
+
+  height: $--xxhls--changelog-more-height;
+  padding-top: $--xxhls--changelog-more-paddingTop;
+  font-size: $--xxhls--changelog-more-fontSize;
+  color: $--xxhls--changelog-more-color;
+
+  &::after {
+    content: ">";
+    position: absolute;
+    margin-left: $--xxhls--changelog-more-icon-marginLeft;
+  }
+}

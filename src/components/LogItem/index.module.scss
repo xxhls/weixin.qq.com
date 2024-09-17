@@ -1,0 +1,15 @@
+.wrapper {
+    @include flex-row-y-center;
+
+    height: $--xxhls--changelog-item-height;
+    font-size: $--xxhls--changelog-item-fontSize;
+    color: $--xxhls--changelog-item-color;
+}
+
+.text {
+    @include a-no-style;
+}
+
+.date {
+    color: $--xxhls--changelog-item-data-color;
+}

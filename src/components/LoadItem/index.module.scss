@@ -1,0 +1,25 @@
+.wrapper {
+    @include flex-col-xy-center;
+
+    width: $--xxhls--download-item-size;
+    height: $--xxhls--download-item-size;
+    color: $--xxhls--download-item-color;
+    background-color: $--xxhls--download-item-background-color;
+    border-radius: 50%;
+
+    &:hover {
+        background-color: $--xxhls--download-item-background-color__hover;
+    }
+}
+
+.icon {
+    width: $--xxhls--download-item-icon-size;
+    height: $--xxhls--download-item-icon-size;
+    background-size: 100% 100%;
+}
+
+.name {
+    padding-top: $--xxhls--download-item-text-paddingTop;
+    font-size: $--xxhls--download-item-text-fontSize;
+    line-height: $--xxhls--download-item-text-lineHeight;
+}

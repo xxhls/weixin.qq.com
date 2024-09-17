@@ -1,0 +1,60 @@
+@mixin bgi($url) {
+    background-image: url($url);
+    background-size: 100% 100%;
+}
+
+@mixin absolute-x-center {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@mixin z-index($zIndex) {
+    z-index: $zIndex;
+}
+
+@mixin flex-col-x-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin flex-col-xy-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flex-row-y-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@mixin flex-row-xy-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin a-no-style {
+    color: inherit;
+    text-decoration: none;
+}
+
+@mixin fake-class {
+    content: "";
+    position: absolute;
+    display: block;
+}
+
+@mixin hover-scale($scale) {
+    transition: transform .3s;
+
+    &:hover {
+        transform: scale($scale);
+    }
+}

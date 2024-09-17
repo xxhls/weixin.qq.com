@@ -1,0 +1,29 @@
+.wrapper {
+    padding: 0 $--xxhls--link-item-parringRB $--xxhls--link-item-parringRB 0;
+
+    a {
+        @include flex-col-xy-center;
+        @include a-no-style;
+        @include hover-scale($--xxhls--link-item-scale);
+
+        width: $--xxhls--link-item-width;
+        height: $--xxhls--link-item-height;
+        background-color: $--xxhls--link-item-backgroundColor;
+        border-radius: $--xxhls--link-item-borderRadius;
+    }
+
+    .logo {
+        padding: 0 0 $--xxhls--link-item-logo-paddingBottom;
+
+        img {
+            width: $--xxhls--link-item-logo-size;
+            height: $--xxhls--link-item-logo-size;
+        }
+    }
+
+    .name {
+        font-size: $--xxhls--link-item-text-fontSize;
+        line-height: $--xxhls--link-item-text-lineHeight;
+        color: $--xxhls--link-item-text-color;
+    }
+}

@@ -1,0 +1,10 @@
+.wrapper {
+    @include flex-col-x-center;
+
+    padding: $--xxhls--links-paddingTB 0;
+}
+
+.linkWrapper {
+    width: $--xxhls--links-width;
+    padding-left: $--xxhls--links-paddingLeft;
+}
