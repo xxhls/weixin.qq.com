@@ -9,6 +9,7 @@
 
 .info {
     @include flex-row-xy-center;
+
     padding-bottom: $--xxhls--footer-info-paddingBottom;
 
     a, span {
@@ -20,6 +21,7 @@
 
 .record, .copyright {
     @include flex-row-xy-center;
+
     padding-bottom: $--xxhls--footer-record_copyright-paddingBottom;
 
     a {
