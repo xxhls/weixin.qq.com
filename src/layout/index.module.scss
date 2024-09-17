@@ -1,4 +1,4 @@
 .wrapper {
-    z-index: -2;
-    background: #f7f7f7;
+    @include z-index(-2);
+    background: $--xxhls--layout-backgroundColor;
 }
